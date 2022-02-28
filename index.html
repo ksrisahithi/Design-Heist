@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://www.w3schools.com/w3css/4/w3.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/a076d05399.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>UpSideDown</title>
+    </head>
+    <body>
+        <div class="menu">
+            <img id="mainLogo" src="images/combined-logo.png" />
+            <img src="images/menu-icon.png" id="menuicon">
+        </div>
+        <div id="content" class="content">
+            <div
+                id="left-arrow"
+                class="nav-btn"
+                style="left: 10px"
+                onclick="moveCats('right');"
+            >
+                <b><</b>
+            </div>
+            <div
+                id="right-arrow"
+                class="nav-btn"
+                style="right: 10px"
+                onclick="moveCats('left');"
+            >
+                <b>></b>
+            </div>
+            <div id="cat-holder" class="cat-holder">
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>New Releases</p>
+                    </div>
+                    <div
+                        style="bottom: 0px"
+                        class="show-holder"
+                        onwheel="scrollme(this);"
+                    >
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x300"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x400"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x250"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x200"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>Telugu Movies</p>
+                    </div>
+                    <div
+                        style="bottom: 0px"
+                        class="show-holder"
+                        onwheel="scrollme(this);"
+                    >
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x200"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x360"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x280"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x450"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>TV Series</p>
+                    </div>
+                    <div
+                        style="bottom: 0px"
+                        class="show-holder"
+                        onwheel="scrollme(this);"
+                    >
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x350"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x460"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x290"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x240"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>Animated Movies</p>
+                    </div>
+                    <div
+                        style="bottom: 0px"
+                        class="show-holder"
+                        onwheel="scrollme(this);"
+                    >
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x360"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x440"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x350"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x300"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>Tamil Movies</p>
+                    </div>
+                    <div
+                        style="bottom: 0px"
+                        class="show-holder"
+                        onwheel="scrollme(this);"
+                    >
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x300"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x400"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x250"
+                                alt=""
+                        /></a>
+                        <a href="#" class="show-link"
+                            ><img
+                                src="https://source.unsplash.com/350x200"
+                                alt=""
+                        /></a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">
+                        <p>Malayalam Movies</p>
+                    </div><div
+                    style="bottom: 0px"
+                    class="show-holder"
+                    onwheel="scrollme(this);"
+                >
+                    <a href="#" class="show-link"
+                        ><img
+                            src="https://source.unsplash.com/350x200"
+                            alt=""
+                    /></a>
+                    <a href="#" class="show-link"
+                        ><img
+                            src="https://source.unsplash.com/350x500"
+                            alt=""
+                    /></a>
+                    <a href="#" class="show-link"
+                        ><img
+                            src="https://source.unsplash.com/350x350"
+                            alt=""
+                    /></a>
+                    <a href="#" class="show-link"
+                        ><img
+                            src="https://source.unsplash.com/350x400"
+                            alt=""
+                    /></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        function scrollme(source) {
+            var menuHeight = getComputedStyle(document.body).getPropertyValue(
+                "--menuHeight"
+            );
+            menuHeight = parseInt(menuHeight.substring(0, menuHeight.length - 2));
+            var btm = source.style.bottom;
+            btm = parseInt(btm.substring(0, btm.length - 2));
+            // var eleHeight = source.offsetHeight;
+            var maxLimit = screen.height - menuHeight;
+            console.log(maxLimit);
+            if (btm > maxLimit)
+                btm = maxLimit;
+            if (btm < 0) btm = 0;
+            btm += 30 * event.deltaY * -0.01;
+            var btmtxt = btm.toString();
+            btmtxt = btmtxt.concat("px");
+            console.log("translateY(".concat(btmtxt).concat(")"));
+            source.style.bottom = btmtxt;
+            source.style.transform = "translateY(".concat(btmtxt).concat(")");
+        }
+        function moveCats(dir) {
+            var catHolder = document.getElementById("cat-holder");
+            var rightLim =
+                document.getElementById("content").offsetWidth -
+                catHolder.offsetWidth;
+            var catLeft = catHolder.style.left;
+            var panVal = getComputedStyle(document.body).getPropertyValue(
+                "--catWidth"
+            );
+            panVal = parseInt(panVal.substring(0, panVal.length - 2));
+            if (catLeft == "") catLeft = 0;
+            else catLeft = parseInt(catLeft.substring(0, catLeft.length - 2));
+            if (dir == "left" && catLeft > rightLim) {
+                catLeft -= panVal;
+                if (catLeft < rightLim) catLeft = rightLim;
+            }
+            if (dir == "right" && catLeft < 0) {
+                catLeft += panVal;
+                if (catLeft > 0) catLeft = 0;
+            }
+            catLeft = catLeft.toString();
+            catLeft = catLeft.concat("px");
+            catHolder.style.left = catLeft;
+        }
+    </script>
+</html>
